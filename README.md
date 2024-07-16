@@ -41,13 +41,13 @@ generados mediante login y contraseña.
   - **Formato JSON**:
     ```json
     {
-      "id": "id del tópico almacenado en la base de datos"
-      "titulo": "Nuevo título del tópico",
-       "mensaje": "Nuevo mensaje del tópico",
-	     "nombreCurso": "Nuevo nombre del tópico",
+        "id": "id del tópico almacenado en la base de datos"
+        "titulo": "Nuevo título del tópico",
+        "mensaje": "Nuevo mensaje del tópico",
+    	"nombreCurso": "Nuevo nombre del tópico",
     }
     ```
-- **Actualizar Tópico**
+- **Listar Tópicos**
   - **Endpoint**: `/topicos`
   - **Método**: `GET`
   - **Descripción**: Muestra todos los tópicos registrados en la base de datos.
